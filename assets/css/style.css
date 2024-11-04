@@ -730,7 +730,7 @@ section {
     }
 
     .market {
-        padding-top: 30rem;
+        padding-top: 35rem;
     }
 
     section {
@@ -740,22 +740,51 @@ section {
 
 @media(max-width: 576px) {
     .search .find {
-        max-width: 100%;
-        margin-left: 0;
-        padding: 1.5rem;
+        max-width: 300px;
+        width: 100%;
+        margin-left: 7;
+        padding: 1rem;
     }
 
     .find .find-row {
+        text-align: center;
         grid-template-columns: 1fr;
-        gap: 1rem;
+        padding: 0.7rem 0;
     }
 
+    .find .find-row .find-item{
+        align-items: center;
+        justify-content: center;
+    }
     .market {
         padding-top: 50rem;
     }
 
     section {
-        padding: 1.5rem 2rem;
+        padding: 1rem 2rem;
     }
 }
 
+
+
+.arrivals{
+    text-align: center;
+    padding-top: 7rem;
+    background: #f6f4f4;
+    box-shadow: 0 0 10px rgb(170, 164, 164), 0 0 10px rgba(111, 109, 109, 0.68);
+    
+}
+
+.arrivals h4{
+    color: var(--main-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.arrivals h4 i{
+    padding-right: 0.5rem;
+}
